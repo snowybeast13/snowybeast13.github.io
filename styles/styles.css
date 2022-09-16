@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #123134;
+  font-weight: 300;
+}
+
+p {
+  line-height: 25px;
+}
+
+ul {
+  padding: 0 18px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+b {
+  font-weight: bold;
+}
+
+.section {
+  width: 50%;
+  padding: 40px;
+}
+.left {
+  text-align: right;
+}
+
+@media screen and (max-width: 755px) {
+  .timeline-wrapper {
+    display: block !important;
+  }
+  .timeline-wrapper::after {
+    content: none !important;
+  }
+  .dot {
+    display: none !important;
+  }
+  .section {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .left {
+    text-align: left;
+  }
+  .bar-wrap {
+    justify-content: space-between !important;
+  }
+  .bar-wrap p {
+    width: 40px;
+  }
+}

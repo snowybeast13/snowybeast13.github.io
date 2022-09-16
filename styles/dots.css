@@ -1,0 +1,46 @@
+.dot {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  background-color: #2e7c83;
+  border-radius: 50%;
+  left: calc(50% - 4px);
+  z-index: 1;
+}
+.dot::after {
+  content: "";
+  height: 2px;
+  display: block;
+  position: relative;
+  background-color: #2e7c83;
+  border-radius: 7px;
+  width: 25px;
+  top: 4px;
+}
+.first::after {
+  width: 50px;
+  right: 20px;
+}
+.first {
+  top: calc(6% - 4px);
+}
+.fifth {
+  top: calc(23% - 7px);
+}
+.fifth::after {
+  left: 9px;
+}
+.second {
+  top: calc(30% + 4px);
+}
+.third {
+  top: calc(46% + 5px);
+}
+.fourth {
+  top: calc(76% + 4px);
+}
+.second::after,
+.third::after,
+.fourth::after {
+  right: 24px;
+}

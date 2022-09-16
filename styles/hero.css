@@ -1,0 +1,13 @@
+.hero {
+  background-color: #a8dbe0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.hero h1 {
+  margin: 0;
+}
+.hero h3 {
+  margin: 0;
+}

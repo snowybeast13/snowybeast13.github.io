@@ -1,0 +1,26 @@
+.bar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 32px;
+}
+.bar-container {
+  background: #f0f0f0;
+  height: 10px;
+  width: 50%;
+  border-radius: 10px;
+}
+.bar {
+  background: -webkit-linear-gradient(
+    to left,
+    #2e7c83,
+    #a8dbe0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2e7c83,
+    #a8dbe0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 10px;
+  border-radius: 10px;
+}
